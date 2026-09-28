@@ -67,3 +67,29 @@ button:hover {
 #total {
   font-weight: bold;
 }
+
+.plan-selector {
+  margin: 24px 0;
+}
+
+.plan-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plan-button {
+  background: white;
+  color: #237a57;
+  border: 1px solid #237a57;
+  text-align: left;
+}
+
+.plan-button:hover {
+  background: #edf7f1;
+}
+
+.plan-button.selected {
+  background: #237a57;
+  color: white;
+}
